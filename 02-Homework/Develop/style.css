@@ -13,6 +13,49 @@ textarea {
   padding: 10px;
 }
 
+/* ul li {
+  list-style: none;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-content: flex-start;
+  /* min-width: 100px; */
+/* } */ 
+
+table {
+  margin-left:15%; 
+  margin-right:15%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.inputbox {
+  width: 100%;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  background-color: rgb(255, 255, 255);
+}
+
+.inputbox:focus {
+  outline: none;
+}
+
+.time {
+  border: 2px solid black;
+}
+
+.plan {
+  border: 2px solid black;
+}
+
+.checkoff {
+  border: 2px solid black;
+}
+
+
 .jumbotron {
   text-align: center;
   background-color: transparent;
